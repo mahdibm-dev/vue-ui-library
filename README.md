@@ -33,3 +33,5 @@ npm run build-storybook
 ```sh
 npx http-server path-to-storybook-static
 ```
+
+View your Storybook at https://65cea36996bcaa47132920fb-tjjwkuzeax.chromatic.com/
