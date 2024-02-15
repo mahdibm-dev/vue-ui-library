@@ -21,7 +21,14 @@ const meta = {
     rounded: { control: 'select', options: ['md', 'lg', 'xl', '2xl', '3xl', true, false] },
     disabled: { control: 'boolean' }
   },
-  args: { color: 'primary', variant: 'solid', size: 'fit', default: 'button' } // default value
+  args: {
+    color: 'primary',
+    variant: 'solid',
+    rounded: 'md',
+    size: 'fit',
+    default: 'button',
+    disabled: false
+  } // default value
 } satisfies Meta<typeof Button>
 
 export default meta

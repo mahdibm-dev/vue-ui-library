@@ -15,7 +15,15 @@ const meta = {
     errorText: { control: 'text' },
     disabled: { control: 'boolean' }
   },
-  args: { modelValue: '', type: 'text', label: 'username', placeholder: 'Enter your username' } // default value
+  args: {
+    modelValue: '',
+    type: 'text',
+    label: 'username',
+    placeholder: 'Enter your username',
+    error: false,
+    errorText: '',
+    disabled: false
+  } // default value
 } satisfies Meta<typeof Input>
 
 export default meta
