@@ -28,7 +28,7 @@ npm run storybook
 npm run build-storybook
 ```
 
-### build storybook
+### run the storybook build
 
 ```sh
 npx http-server path-to-storybook-static
